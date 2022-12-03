@@ -1,0 +1,51 @@
+:root {
+    --primary-color: #f3a46b;
+    --text-color: #a59f9a;
+    --text-heading: #555555;
+    --border-color:  #f1f1f1;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+
+}
+
+.grid {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.btn {
+    color: white;
+    font-size: 14px;
+    min-width: 84px;
+    line-height: 18px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 2rem;
+    padding: 4px 10px;
+    cursor: pointer;
+}
+
+.underline {
+    text-decoration-line:underline;
+    text-decoration-thickness: 4px ;
+}
+
+.hot-label {
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 18px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 12px;
+}
